@@ -13,6 +13,16 @@ body, html {
     height: auto;
 }
 
+.btn-outline-success{
+    background-color: #1868b438;
+    color: #ffff;
+    border: none;
+}
+
+.btn-outline-success:hover{
+    background-color: #5c306e9e;
+}
+
 .btn-custom{
     background-color: #fff;
 }

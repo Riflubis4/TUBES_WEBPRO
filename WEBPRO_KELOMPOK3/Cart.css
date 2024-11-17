@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'open sans', serif;
+}
+
+.navbar {
+    background-color: #999ae6; 
+}
+
+.navbar .logo {
+    width: 30px; 
+    height: auto;
+}
+
+
+.btn-custom i {
+    font-size: 1.5rem;
+}
+
+.btn-outline-success{
+    background-color: #6616bc;
+    color: white;
+    border: none;
+}
+
+.btn-outline-success:hover{
+    background-color: #888BD4;
+}
+
+.btn-outline-success:focus,
+.btn-outline-success:active,
+.btn-outline-success:focus:active {
+    color: white;
+    background-color: #999AE6; 
+    border-color: #999AE6;
+    box-shadow: none; 
+}
+
+.offcanvas-header, .offcanvas-body h6 {
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.notification-card {
+    border-radius: 10px;
+    background-color: #f8f9fa; 
+    border: none;
+}
+
+
+.cart-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.cart-empty img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.cart-empty h5 {
+    font-weight: bold;
+}
+
+.cart-empty .btn {
+    background-color: #7e57c2;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.cart-empty .btn:hover{
+    background-color: #BC3Af4;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+          .navbar {
+            background-color: grey;
+            padding: 1rem;
+          }
+
+          .navbar-brand {
+            color: white;
+            text-decoration: none;
+          }
+
+          .navbar-link {
+            color: rgba(255,255,255,0.55);
+            text-decoration: none;
+            margin-right: 15px;
+          }
+
+          .footer {
+            background-color: #212529;
+            padding: 1rem;
+            color: white;
+            text-align: center;
+          }
+
+          /* .navbar-link:hover {
+            color: black;
+          } */
+
+          .offcanvas {
+            width: 350px;
+          }
+
+          .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(0,0,0,.1);
+          }
+
+          .offcanvas-body {
+            padding: 1rem;
+          }
+
+          .card {
+            border-radius: 8px;
+            border: 1px solid rgba(0,0,0,.125);
+            transition: all 0.3s ease;
+          }
+
+          .offcanvas {
+            width: 350px;
+          }
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">Hello World</a>
+                <div class="d-flex">
+                    <a class="navbar-link" href="#">Home</a>
+                    <a class="navbar-link" href="#">Contact</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Notif</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <div class="mb-4">
+              <h6 class="d-flex align-items-center mb-3">Notifikasi Terbaru</h6>
+              <div class="card mb-2">
+                  <div class="card-body">
+                      <p class="card-text small">Lomba Essay Nasional 2024 telah dibuka!</p>
+                      <small class="text-muted">2 menit yang lalu</small>
+                  </div>
+              </div>
+              <div class="card mb-2">
+                  <div class="card-body">
+                      <p class="card-text small">Deadline pendaftaran Lomba Fotografi diperpanjang</p>
+                      <small class="text-muted">5 menit yang lalu</small>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Pengingat Jadwal -->
+            <div class="mb-4">
+                <h6 class="d-flex align-items-center mb-3">Pengingat Jadwal</h6>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <p class="card-text small fw-bold">Technical Meeting Lomba Debat</p>
+                        <small class="text-muted">Besok, 10:00 WIB</small>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <p class="card-text small fw-bold">Deadline Pengumpulan Karya</p>
+                        <small class="text-muted">Jumat, 15:00 WIB</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artikel Terkait -->
+            <div class="mb-4">
+                <h6 class="d-flex align-items-center mb-3">Artikel Terkait</h6>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h6 class="card-title small">Tips Menulis Esai Menarik untuk Lomba</h6>
+                        <p class="card-text small text-muted">Panduan cara membuat esai yang kompetitif</p>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h6 class="card-title small">Cara Mempersiapkan Diri Mengikuti Lomba</h6>
+                        <p class="card-text small text-muted">Langkah-langkah agar siap bersaing</p>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h6 class="card-title small">Strategi Memenangkan Lomba Karya Tulis</h6>
+                        <p class="card-text small text-muted">Kiat jitu untuk menjadi pemenang</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tips -->
+            <div class="mb-4">
+                <h6 class="d-flex align-items-center mb-3">Tips</h6>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h6 class="card-title small">Tips Manajemen Waktu</h6>
+                        <p class="card-text small text-muted">Cara mengatur waktu saat mengikuti lomba</p>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h6 class="card-title small">Tips Presentasi</h6>
+                        <p class="card-text small text-muted">Panduan presentasi yang menarik untuk lomba</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mt-3">
+            <h3 class="text-center">Tes Bootstrap</h3>
+        </div>
+
+        <div class="footer">
+            <p>Hello World</p>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
